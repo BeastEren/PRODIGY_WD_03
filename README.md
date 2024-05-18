@@ -24,6 +24,16 @@ This project is a web-based Tic-Tac-Toe game built using HTML, CSS, and JavaScri
 
 To run this project, you only need a web browser. No additional software or dependencies are required.
 
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/BeastEren/PRODIGY_WD_03.git
+   ```
+2. **Navigate to the project directory:**
+   ```sh
+   cd PRODIGY_WD_03\tic-tac-toe
+   ```
 
 ### Running the Game
 
@@ -36,13 +46,13 @@ To run this project, you only need a web browser. No additional software or depe
 tic-tac-toe/
 ├── index.html
 ├── css/
-│   └── styles.css
+│   └── style.css
 └── js/
     └── script.js
 ```
 
 - `index.html`: The main HTML file that sets up the structure of the web page.
-- `css/styles.css`: The CSS file that contains styles for the game board and interface.
+- `css/style.css`: The CSS file that contains styles for the game board and interface.
 - `js/script.js`: The JavaScript file that contains the game logic and functionality.
 
 ## Game Logic
@@ -80,10 +90,9 @@ tic-tac-toe/
 
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
 
-
 ## Contact
 
-For any questions or feedback, please contact [Sourav Singh](mailto: souravsinghami1@gmail.com).
+For any questions or feedback, please contact [SOURAV SINGH](mailto: souravsinghami1@gmail.com).
 
 ---
 
