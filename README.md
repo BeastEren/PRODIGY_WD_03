@@ -37,23 +37,29 @@ To run this project, you only need a web browser. No additional software or depe
 
 ### Running the Game
 
-1. Open the `index.html` file in your preferred web browser.
+1. Open the `menu.html` file in your preferred web browser.
 2. The game board will be displayed, and you can start playing immediately.
 
 ## Project Structure
 
 ```plaintext
 tic-tac-toe/
-├── index.html
+├── indexAI.html
+├── indexP.html
+├── menu.html
 ├── css/
-│   └── style.css
+│   └── styles.css
 └── js/
-    └── script.js
+    ├── aiScript.js
+    └── pScript.js
 ```
 
-- `index.html`: The main HTML file that sets up the structure of the web page.
-- `css/style.css`: The CSS file that contains styles for the game board and interface.
-- `js/script.js`: The JavaScript file that contains the game logic and functionality.
+- `menu.html`: The main HTML file that sets up the structure of the web page.
+- `indexP.html`: The HTML file that sets up the structure of the web page for a game with Player vs Player.
+- `indexAI.html`: The HTML file that sets up the structure of the web page for a game with AI.
+- `css/styles.css`: The CSS file that contains styles for the game board and interface.
+- `js/pScript.js`: The JavaScript file that contains the game logic and functionality for a Player vs Player game.
+- `js/aiScript.js`: The JavaScript file that contains the game logic and functionality for a AI game.
 
 ## Game Logic
 
