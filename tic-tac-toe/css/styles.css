@@ -9,7 +9,8 @@
 nav {
     background-color: rgb(37, 9, 37);
     color: white;
-    height: 65px;
+    height: 10vh;
+    width: 100%;
     font-size: 27px;
     display: flex;
     align-items: center;
@@ -57,11 +58,31 @@ nav ul {
     color: #ffffff;
 }
 
+.back_but{
+    width: 100px;
+    height: 40px;
+    margin-left: 6em;
+}
+
 @media screen and (max-width: 460px) {
     .buttons {
         flex-direction: column;
         gap: 25px;
     }
+}
+
+.un-mute,
+.mute {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .gameContainer {

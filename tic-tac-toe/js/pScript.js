@@ -4,6 +4,8 @@ let audioTurn = new Audio("ting.mp3")
 let gameover = new Audio("gameover.mp3")
 let turn = "X"
 let isgameover = false;
+let mute = document.querySelector('.mute');
+let unMute = document.querySelector('.un-mute');
 
 // Function to change the turn
 const changeTurn = ()=>{
@@ -34,8 +36,19 @@ const checkWin = ()=>{
     })
 }
 
+//Music 
+music.play();
+function pauseMusic() {
+    music.pause();
+}
+function playMusic() {
+    music.play();
+}
+
+mute.addEventListener('click', pauseMusic);
+unMute.addEventListener('click', playMusic);
+
 // Game Logic
-// music.play()
 let boxes = document.getElementsByClassName("box");
 Array.from(boxes).forEach(element =>{
     let boxtext = element.querySelector('.boxtext');
